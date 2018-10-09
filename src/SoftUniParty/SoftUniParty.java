@@ -4,23 +4,25 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class SoftUniParty {
+public class SoftUniParty {//
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         Set<String> guests = new TreeSet<>();
 
-        String line = scanner.nextLine();
 
-        while(!"PARTY".equals(line)){
 
+        while(true){
+            String line = scanner.nextLine();
+            if("PARTY".equals(line)){
+               break;
+            }
            guests.add(line);
 
 
-            line = scanner.nextLine();
         }
 
-        line = scanner.nextLine();
+        String line = scanner.nextLine();
 
         while(!"END".equals(line)){
 
