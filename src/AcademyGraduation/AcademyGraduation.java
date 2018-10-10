@@ -30,15 +30,15 @@ public class AcademyGraduation {
 
         for (Map.Entry<String,double[]> studentEntry : students.entrySet()) {
 
-   //       double sum = 0;
-   //         for (double v : studentEntry.getValue()) {
-   //             sum += v;
-   //         }
-   //
-   //         sum /= studentEntry.getValue().length;
-           //tazi logika e ekvivalentna s dolnata
+            //       double sum = 0;
+            //         for (double v : studentEntry.getValue()) {
+            //             sum += v;
+            //         }
+            //
+            //         sum /= studentEntry.getValue().length;
+            //tazi logika e ekvivalentna s dolnata
 
-           double avg = 0;
+            double avg = 0;
 
             for (double v : studentEntry.getValue()) {
                 avg += v;
@@ -49,5 +49,7 @@ public class AcademyGraduation {
         }
 
     }
+
+
 
 }
