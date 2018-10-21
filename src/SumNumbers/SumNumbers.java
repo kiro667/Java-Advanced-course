@@ -23,6 +23,9 @@ public class SumNumbers {
 
         int[] parsed = parseArray.apply(input);
 
+        //returns something, call method = apply()
+        //void, call method = accept();
+
         Function<int[], Integer> getArrayCount = arr -> arr.length;
 
         int count = getArrayCount.apply(parsed);
