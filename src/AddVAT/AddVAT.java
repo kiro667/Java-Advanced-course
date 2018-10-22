@@ -46,5 +46,8 @@ List<Double> input = Arrays.stream(reader.readLine().
         print.accept(input);//tuk q vikame s metoda accept za6toto e ot tip void
         //i podavame spisuka
 
+
+
+
     }
 }
