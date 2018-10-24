@@ -27,7 +27,7 @@ public class BoundedNumbers {
         ).collect(Collectors.toList());
 
 
-        finalNumbers.forEach(x -> System.out.println(x + " "));
+        finalNumbers.forEach(x -> System.out.print(x + " "));
 
 
 
